@@ -62,3 +62,14 @@ class Truck extends Vehicle {
 let obj = new Vehicle()
 obj.start()
 console.log(obj.brand)
+
+let Work = function(locality) {
+    this.locality = locality
+}
+
+Work.prototype.city = 'lucknow'
+
+let w1 = new Work('gn')
+console.log(w1.locality)
+console.log(w1.city)
+console.log(Work.prototype)
