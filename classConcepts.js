@@ -63,6 +63,7 @@ let obj = new Vehicle()
 obj.start()
 console.log(obj.brand)
 
+//Object prototype
 let Work = function(locality) {
     this.locality = locality
 }
